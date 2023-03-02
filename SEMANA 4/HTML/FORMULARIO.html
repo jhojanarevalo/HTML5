@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="../CSS/contacto.css">
+</head>
+<body>
+    <header>
+<img src="/IMG/incap.png" width="100" height="100" alt="incap">
+<H1>FORMULARIOS Y LISTAS HTML</H1>
+    </header>
+
+<NAv>
+<ul>
+    <li>home</li>
+    <li >productos</li>
+    <li > servicios</li>
+    <li> contacto</li>
+</ul>
+</NAv>
+<section>
+    <form action="datos.php" method="post">
+    <!-- seccion ingresar nombre -->
+    <label for=""> NOMBRE COMPLETOS:</label>
+    <input type="text" name="nombre " placeholder="&#9756; ingrese su nombre completo" required > <br><br>
+    <hr>
+
+    <!-- seccion ingresar email-->
+    <label for=""> email:</label>
+    <input type="email" name="email " placeholder="&#9756; ingrese su email" required > <br><br>
+    <hr>
+
+    <!-- seccion ingresar contraseña-->
+    <label for=""> contraseña:</label>
+    <input type="password" name="contraseña " placeholder="&#9756; ingrese su contraseña" required > <br><br>
+    <hr>
+    <!-- seccion de hobbies -->
+    <label for="">selecciona tus hobbies:</label>
+    <br>
+    <input type="checkbox">cine <br>
+    <input type="checkbox"> lectura <br>
+    <input type="checkbox"> deporte <br>
+    <br>
+    <hr>
+    <!--  seccion estado civil -->
+    <label for=""> estado civil:</label> <br>
+    <input type="radio" value="casado" name="estcivil">casado(a) <br>
+    <input type="radio" value=" soltero "name="estcivil">soltero(a) <br>
+    <input type="radio" value=" viudo" name="estcivil"> viudo(a) <br>
+    <br><br>
+    <hr>
+    <!--  seccion opcion de lista -->
+    <label for=""> PROGRAMAS TECNICOS:</label>
+    <select name="" id=""> 
+    <option value=""> SELECCIONE PROGRAMA</option>
+    <option value=""> SISTEMAS</option>
+    <option value=""> DISEÑO GRAFICO</option>
+    <option value=""> CONTABILIDAD</option>
+    </select>
+    <br><br>
+    <hr>
+    <!-- seccion comentarios -->
+    <label for=""> cometarios</label>
+    <textarea name="" id="" cols="40" rows="s"></textarea>
+    <br><br>
+    <hr>
+    <!--  seccion  botones formulario -->
+    <button type="submit">ENVIAR</button>
+    <button type="reset"> CANCELAR</button>
+    <br><br>
+    </form>
+    </section>
+    <!-- seccion pie de pagina -->
+    <footer>
+    <p>derechos reservados &copy;2023&#64; JHOJAN </p>
+    </footer>
+</body>
+</html>
